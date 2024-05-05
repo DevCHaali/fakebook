@@ -216,7 +216,7 @@ setInterval(removeNullEntries, 10000);
 console.log('The process is running. Press Ctrl+C to stop.');
 
 ////////////////////////////////////////////////////////////////////////////
-const port = 3000;
+const port = process.env.PORT || 4000;;
 app.listen(port, () => {
   console.log(`Server listening at http://localhost:${port}`);
 });
