@@ -1,9 +1,0 @@
-#result{
-    background-color: rgb(235, 59, 59);
-    font-size: 1.1em;
-    color: white;
-    padding: 5px;
-}
-.inputu input, .inputp input{
-    border: 1px solid red;
-}
