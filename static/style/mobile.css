@@ -1,0 +1,161 @@
+@import url(https://db.onlinewebfonts.com/c/0b51833ff62e4af8acb5fd3e2bf59e97?family=SF+Pro+Display+Regular);
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Helvetica, Arial, sans-serif;
+}
+body{
+    background-color: #ffff;
+}
+.logo center img{
+    width: 95px;
+    mix-blend-mode: multiply;
+}
+.content{
+    display: block;
+}
+.togle-resp{
+    width:423px ;
+    position: relative;
+}
+.inputu,.inputp {
+    margin-bottom: 10px;
+}
+.password-toggle {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: black;
+  }
+.inputu input,.inputp .togle-resp input {
+    outline: none;
+    background-color: #f5f6f7;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    font-size: 14px;
+    padding: 22px 13px;
+    width: 379px;
+    border-radius: 2px;
+}
+.buttons center button{
+    border: none;
+    background-color: #1877f2;
+    border-radius: 2px;
+    font-size: 20px;
+    color: white;
+    line-height: 39px;
+    padding: 0 16px;
+    width: 376px;
+    margin-bottom: 20px;
+    outline: none;
+}
+.forget{
+    color: #1877f2;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+    margin-bottom: 9px;
+
+  }
+  
+  .line-with-text hr {
+    flex: 1;
+    border: 0.2px solid #ccd0d5; /* تغيير السمك ولون الخط حسب الرغبة */
+    margin: 0 10px; /* تحديد المسافة بين الخطوط والنص */
+  }
+  
+  .line-with-text span {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif; /* تغيير حجم النص حسب الرغبة */
+}
+.cna{
+    border: #ccd0d5 solid 0.9px;
+    padding: 10px 69px 10px 69px;
+    border-radius: 2px;
+}
+
+
+
+@media screen and (max-width: 360px) {
+  .inputu input, .inputp .togle-resp input{
+    width: 300px;
+}
+.password-toggle {
+    right: 17px;
+}
+.buttons center button{
+  width: 300px;
+}
+.togle-resp{
+  width: 317px;
+}
+}
+@media screen and (min-width: 360px) and (max-width: 384px) {
+  .inputu input, .inputp .togle-resp input{
+    width: 348px;
+    margin-left: 8px;
+  }
+  .togle-resp{
+    width: 361px;
+  }
+  .buttons center button{
+    width: 348px;
+    margin-left: 8px;
+  }
+  .line-with-text {
+      margin-right: 86px;
+      margin-left: 86px;
+  }
+}
+@media screen and (min-width: 384px) and (max-width: 412px) {
+  .inputu input, .inputp .togle-resp input{
+    width: 374px;
+    margin-left: 7px;
+  }
+  .buttons center button{
+    width: 374px;
+    margin-left: 7px;
+  }
+  .line-with-text {
+      margin-right: 86px;
+      margin-left: 86px;
+  }
+  .togle-resp {
+    width: 388px;
+}
+}
+@media screen and (min-width: 412px) and (max-width: 712px) {
+  .inputu input, .inputp .togle-resp input{
+    width: 382px;
+}
+
+.buttons center button{
+  width: 382px;
+}
+.line-with-text {
+    margin-right: 86px;
+    margin-left: 86px;
+}
+}
+@media screen and (min-width: 712px) and (max-width: 800px) {
+  .inputu input, .inputp .togle-resp input{
+    width: 422px;
+}
+.buttons center button{
+  width: 422px;
+}
+
+}
